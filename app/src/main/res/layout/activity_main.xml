@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="#1A1B1F">
+
+    <ImageView
+        android:layout_width="299dp"
+        android:layout_height="302dp"
+        android:src="@drawable/ic_baseline_supervised_user_circle_24" />
+
+    <Button
+        android:id="@+id/view_users"
+        android:layout_width="wrap_content"
+        android:paddingTop="40dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_button"
+        android:paddingHorizontal="15dp"
+        android:paddingVertical="5dp"
+        android:text="View Users"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
